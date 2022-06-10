@@ -1,0 +1,8 @@
+#abria a imagem
+img = cv2.imread('data/t1.jpg',1)   #A  PRIMEIRA LINHA PEGA A IMAGEM E  LÊ ELA(ARMAZENA)  
+cv2_imshow(img) #A SEGUNDA  MOSTRA A IMAGEM 
+#O  imread é bem simples, ele usa o parametro pela busca de endereço da imagem, a imagem tem que estar salvo no mesmo diretorio do scrypt , é so indicar o nome da imagem
+#isso tudo ocorre graças ao python OpenCV  que é uma linguagem focada em  imagens visuais utilizando linguagem de programação
+#cv2.imshow  a imagem é aberta em uma janela, e essa janela vai se ajustando  automaticamente com o tamanho da imagem 
+#tem o destroywindow que permite que o usuario destrua a janela sem nenhum parametro ou retorno  a nada
+#WaitKey  exibira  a janela infinitamente  até que qualquer tecla seja precionada  (é adequado para esse tipo de exibição de imagem)
